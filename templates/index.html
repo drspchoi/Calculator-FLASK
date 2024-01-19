@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Uploader</title>
+</head>
+<body>
+    <h1>File Uploader</h1>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Choose a file:</label>
+        <input type="file" id="file" name="file" accept="*" />
+        <br />
+        <button type="submit">Upload</button>
+    </form>
+    <h1> Calculator </h1>
+    <form action="/result" method="GET" action="#">
+        Enter any number :
+        <input id="num" name="num" type="text"></input>
+        <button type="submit">Calculation</button>
+        <br>
+    </form>
+</body>
+</html>
